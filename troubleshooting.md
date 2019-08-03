@@ -52,8 +52,8 @@ This is a failsafe method, in case you are having any problem flashing a migrate
 
 1. Make a folder just inside internal storage named "backup". The folder must be completely empty.  
 2. Extract a single migrate backup zip file inside the created "backup" folder. The contents of the zip must directly be inside the "backup" folder.  
-> Say the zip file has a name "BackupXYZ.zip", your extracted contents must <B>NOT<B> look like:  
-    Internal storage -> backup -> BackupXYZ -> <contents>  
-> It should look like: Internal storage -> backup -> <contents>  
+> Say the zip file has a name "BackupXYZ.zip", your extracted contents must <b>NOT</b> look like:  
+    Internal storage -> backup -> BackupXYZ -> {zip file contents}  
+> It should look like: Internal storage -> backup -> {zip file contents}  
 3. Download this file, open TWRP and flash this file.  
 4. Reboot and continue restore via the helper app.  
