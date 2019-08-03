@@ -5,6 +5,9 @@ Most of the TWRP related issues should be resolved by going to [the section "TWR
 ## Telegram group for reporting issues:
 You can provide feedback and report issues in our Telegram group: https://t.me/migrateApp
 
+## Segmentation fault
+The error "Segmentation fault" is related to kernel. This is mostly observed in KangarooX kernel for `whyred` (Redmi Note 5). People encountering this are requested to change the kernel and retry backup.
+
 ## Restore after setting up ROM
 In some cases, you might observe some problems if you flash migrate backup zips before setting up your ROM, Google account in Gapps etc. Although the process of flashing ROM <b>AND</b> flashing all migrate zips in one go in TWRP, without rebooting may seem convenient and in most cases have no problems, sometimes, dependent on ROM and device, you might face some problems while restoring.  
 
@@ -62,6 +65,3 @@ This is a failsafe method, in case you are having any problem flashing a migrate
 4. Reboot. You should now get a prompt to continue restore via the helper app. If not, check [the section "Migrate Helper apk"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#migrate-helper-apk)  
 
 If you want to flash another migrate zip file, clean the "backup" folder created in step 1. Extract another zip file as in step 2, go to TWRP and flash the already downloaded "twrp_extract.zip" file again.
-
-## Segmentation fault
-The error "Segmentation fault" is related to kernel. This is mostly observed in KangarooX kernel for `whyred` (Redmi Note 5). People encountering this are requested to change the kernel and retry backup.
