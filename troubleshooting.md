@@ -40,7 +40,7 @@ To resolve this please see the section ____________________
 To send the log file of TWRP, boot into TWRP -> Flash Migrate zip -> (You will get an error) <b>DO NOT REBOOT</b> -> Go to TWRP main menu -> Advanced -> File manager.
 Navigate to `/tmp`. Copy the `recovery.log` file to under `/sdcard`.
 
-Alternatively from adb (in TWRP itself, <b>DO NOT REBOOT</b>), enter this command without the `<space>` words:
+Alternatively from adb (in TWRP itself, <b>DO NOT REBOOT to system</b>), enter this command without the `<space>` words:
 ```
 cp <space> /tmp/recovery.log <space> /sdcard/
 ```
