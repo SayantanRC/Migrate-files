@@ -60,3 +60,5 @@ This is a failsafe method, in case you are having any problem flashing a migrate
 
 If you want to flash another migrate zip file, clean the "backup" folder created in step 1. Extract another zip file as in step 2, go to TWRP and flash the already downloaded "twrp_extract.zip" file again.
 
+## Segmentation fault
+The error "Segmentation fault" is related to kernel. This is mostly observed in KangarooX kernel for `whyred` (Redmi Note 5). People encountering this are requested to change the kernel and retry backup.
