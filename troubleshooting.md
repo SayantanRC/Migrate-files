@@ -36,7 +36,7 @@ YOU WILL NEED TO INSTALL THE HELPER APK SEPARATELY i.e manually. You can get the
 This currently prevalent in system-as-root devices like `violet` (Redmi Note 7 pro), `lavender` (Redmi Note 7). Currently system-as-root device users are advised to not use this app. A suitable solution will be made available soon.  
 
 For any other cases, you can send a log file to the [Telegram group](https://t.me/migrateApp).  
-To resolve this please see the section ____________________
+To resolve this please see [the section "TWRP alternate flasher (failsafe method)"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#twrp-alternate-flasher-failsafe-method) below.
 
 To send the log file of TWRP, boot into TWRP -> Flash Migrate zip -> (You will get an error) <b>DO NOT REBOOT</b> -> Go to TWRP main menu -> Advanced -> File manager.
 Navigate to `/tmp`. Copy the `recovery.log` file to under `/sdcard`.
