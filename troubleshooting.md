@@ -1,6 +1,8 @@
 # Troubleshooting
 
-Most of the TWRP related issues should be resolved by going to [the section "TWRP alternate flasher (failsafe method)"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#twrp-alternate-flasher-failsafe-method) below. However, you should also check the other sections before trying that.
+Most of the TWRP related issues should be resolved by going to [the section "TWRP alternate flasher (failsafe method)"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#twrp-alternate-flasher-failsafe-method) below. 
+
+However, you should also check the other sections before trying that.
 
 ## Telegram group for reporting issues:
 You can provide feedback and report issues in our Telegram group: https://t.me/migrateApp
