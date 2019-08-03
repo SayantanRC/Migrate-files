@@ -13,4 +13,4 @@ OR
 2. Extract the zip file, replace the verify.sh script, zip it again.  
 
 You should be able to flash the file now without any problem.  
-YOU WILL NEED TO INSTALL THE HELPER APK SEPARATELY i.e manually. You can get the apk either from [here](https://github.com/SayantanRC/Migrate-files/blob/master/helper.apk?raw=true) or under the "system" directory inside the backup.zip file which you flashed from TWRP.  
+YOU WILL NEED TO INSTALL THE HELPER APK SEPARATELY i.e manually. You can get the apk either from [the section above](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#migrate-helper-apk) or under the "system" directory inside the backup.zip file which you flashed from TWRP.  
