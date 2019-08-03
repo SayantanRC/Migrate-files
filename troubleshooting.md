@@ -54,7 +54,8 @@ cp <space> /tmp/recovery.log <space> /sdcard/
 Now, reboot to system and upload the `recovery.log` file, from Internal storage, in our [Telegram group](https://t.me/migrateApp).
 
 ## TWRP alternate flasher (failsafe method)
-<b>IMPORTANT: System apps are not restored by this process.</b>
+<b>IMPORTANT: System apps are not restored by this process.</b>  
+
 This is a failsafe method, in case you are having any problem flashing a migrate zip in TWRP <b>(Redmi Note 7 series and other system as root devices are not yet supported)</b>. Please note that you cannot use this on multiple migrate backup zips on the same time. You would need to repeat the process for each zip file. Please follow the instructions <b>EXACTLY</b> as provided below.  
 
 1. Make a folder just inside internal storage named "backup". The folder must be completely empty.  
