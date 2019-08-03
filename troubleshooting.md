@@ -4,6 +4,7 @@ You can provide feedback and report issues in our Telegram group: https://t.me/m
 
 ## Restore after setting up ROM
 In some cases, you might observe some problems if you flash migrate backup zips before setting up your ROM, Google account in Gapps etc. Although the process of flashing ROM <b>AND</b> flashing all migrate zips in one go in TWRP, without rebooting may seem convenient and in most cases have no problems, sometimes, dependent on ROM and device, you might face some problems while restoring.  
+
 In such cases, try this:  
 1. Clean flash ROM  
 2. Don't flash any migrate zip  
