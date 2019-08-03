@@ -2,6 +2,16 @@
 ## Telegram group for reporting issues:
 You can provide feedback and report issues in our Telegram group: https://t.me/migrateApp
 
+## Restore after setting up ROM
+In some cases, you might observe some problems if you flash migrate backup zips before setting up your ROM, Google account in Gapps etc. Although the process of flashing ROM <b>AND</b> flashing all migrate zips in one go in TWRP, without rebooting may seem convenient and in most cases have no problems, sometimes, dependent on ROM and device, you might face some problems while restoring.  
+In such cases, try this:  
+1. Clean flash ROM  
+2. Don't flash any migrate zip  
+3. Boot up and complete ROM, Gapps etc setup  
+4. Boot back to TWRP recovery  
+5. Flash migrate zips  
+6. Try to restore  
+
 ## Migrate Helper apk
 In some cases, you might not get the prompt to continue restore. Please download the apk, install it manually and open it to continue restoring.  
 [Helper apk](https://github.com/SayantanRC/Migrate-files/blob/master/helper.apk?raw=true)
@@ -11,7 +21,7 @@ Helper usually fails to install from TWRP when the system directory is full. You
 
 If nothing helps, try this:  
 Inside each of your backup.zip file, there will be a file named as `verify.sh`. Replace that with this file:
-[Right click on this link -> Save as](https://raw.githubusercontent.com/SayantanRC/Migrate-files/master/verify.sh)  
+[Right click on this link -> Save link as](https://raw.githubusercontent.com/SayantanRC/Migrate-files/master/verify.sh)  
 
 You may use:  
 1. Any zip explorer and directly replace the file.  
@@ -35,3 +45,4 @@ Alternatively from adb (in TWRP itself, <b>DO NOT REBOOT</b>), enter this comman
 cp <space> /tmp/recovery.log <space> /sdcard/
 ```
 Now, reboot to system and upload the `recovery.log` file, from Internal storage, in our [Telegram group](https://t.me/migrateApp).
+
