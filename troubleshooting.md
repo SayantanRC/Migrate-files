@@ -54,5 +54,9 @@ This is a failsafe method, in case you are having any problem flashing a migrate
 2. Extract a single migrate backup zip file inside the created "backup" folder. The contents of the zip must directly be inside the "backup" folder.  
 > Say the zip file has a name "BackupXYZ.zip", your extracted contents must <b>NOT</b> look like: <i>Internal storage -> backup -> BackupXYZ -> {zip file contents}</i>  
 > It should look like: <i>Internal storage -> backup -> {zip file contents}</i>  
-3. Download this file, open TWRP and flash this file.  
-4. Reboot and continue restore via the helper app.  
+3. Download this file: [twrp_extract.zip](https://github.com/SayantanRC/Migrate-files/blob/master/twrp_extract.zip?raw=true). Put this file preferably under `Download` folder in the internal storage of your Android device.  
+4. Open TWRP, click "Install" button, navigate to the above downloaded file (Internal storage -> Download -> twrp_extract.zip) and flash it.  
+4. Reboot. You should now get a prompt to continue restore via the helper app. If not, check [the section "Migrate Helper apk"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#migrate-helper-apk)  
+
+If you want to flash another migrate zip file, clean the "backup" folder created in step 1. Extract another zip file as in step 2, go to TWRP and flash the already downloaded "twrp_extract.zip" file again.
+
