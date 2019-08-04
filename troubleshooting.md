@@ -2,7 +2,7 @@
 
 Most of the TWRP related issues should be resolved by going to [the section "TWRP alternate flasher (failsafe method)"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#twrp-alternate-flasher-failsafe-method) below. 
 
-However, you should also check the other sections before trying that.
+However, you should also check the other sections before trying that. Also look into [the section "Important points when making the migrate backup"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#important-points-when-making-the-migrate-backup) at the bottom.
 
 ## Telegram group for reporting issues:
 You can provide feedback and report issues in our Telegram group: https://t.me/migrateApp
@@ -83,8 +83,8 @@ This is a failsafe method, in case you are having any problem flashing a migrate
 
 If you want to flash another migrate zip file, clean the "backup" folder created in step 1. Extract another zip file as in step 2, go to TWRP and flash the already downloaded "twrp_extract.zip" file again.
 
-## precautions when making the migrate backup
-1. Delete cache. This reduces errors in making the zip.
+## Important points when making the migrate backup
+1. Users may want to delete cache. This reduces errors in making the zip.
 You can use an application that deletes cache...
 and you can individually delete cache in the applications that keep a lot of cache (e.g Facebook , chrome)
 
