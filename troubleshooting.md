@@ -29,7 +29,13 @@ In such cases, try this:
 6. Try to restore  
 
 ## Migrate Helper apk
-In some cases, you might not get the prompt to continue restore. Please download the apk, install it manually and open it to continue restoring.  
+In some cases, you might not get the prompt to continue restore , in which case you have to run the migratehelper application manually.
+
+The helper application is found on your internal storage in:
+/sdcard/Android/data/balti.migratehelper/helper/MigrateHelper.apk
+
+Or you download the apk, install it manually and open it to continue restoring.
+
 [Helper apk](https://github.com/SayantanRC/Migrate-files/blob/master/helper.apk?raw=true)
 
 ## [TWRP error] Can't install helper. Flashing zip fails.
