@@ -9,15 +9,20 @@ You can provide feedback and report issues in our Telegram group: https://t.me/m
 The error "Segmentation fault" is related to kernel. This is mostly observed in KangarooX kernel for `whyred` (Redmi Note 5). People encountering this are requested to change the kernel and retry backup.
 
 ## Restore after setting up ROM
-In some cases, you might observe some problems if you flash migrate backup zips before setting up your ROM, Google account in Gapps etc. Although the process of flashing ROM <b>AND</b> flashing all migrate zips in one go in TWRP, without rebooting may seem convenient and in most cases have no problems, sometimes, dependent on ROM and device, you might face some problems while restoring.  
+1)) How to restore migrate zip files.
+Run the migrate application. You will see a button lebeled "how to restore". Click on it and read the instructions.
+
+2)) In some cases, you might observe some problems if you flash migrate backup zips before setting up your ROM, Google account in Gapps etc. Although the process of flashing ROM <b>AND</b> flashing all migrate zips in one go in TWRP, without rebooting may seem convenient and in most cases have no problems, sometimes, dependent on ROM and device, you might face some problems while restoring.  
 
 In such cases, try this:  
-1. Clean flash ROM  
-2. Don't flash any migrate zip  
-3. Boot up and complete ROM, Gapps etc setup  
-4. Boot back to TWRP recovery  
+1. Clean flash ROM  (Wipe cache, dalvik cache, data - then flash the ROM)
+2. Flash OpenGapps (Optional)
+3. Flash magisk (needed for migrate to work)
+4. ---Don't flash any migrate zip--- 
+5. Boot into system and complete ROM, Gapps , magisk etc setup  
+4. Reboot into TWRP recovery  
 5. Flash migrate zips  
-6. Try to restore  
+6. Reboot into system and try to restore  
 
 ## Migrate Helper apk
 In some cases, you might not get the prompt to continue restore. Please download the apk, install it manually and open it to continue restoring.  
