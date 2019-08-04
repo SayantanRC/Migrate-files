@@ -1,6 +1,8 @@
 # Troubleshooting
 
-Most of the TWRP related issues should be resolved by going to [the section "TWRP alternate flasher (failsafe method)"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#twrp-alternate-flasher-failsafe-method) below. However, you should also check the other sections before trying that.
+Most of the TWRP related issues should be resolved by going to [the section "TWRP alternate flasher (failsafe method)"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#twrp-alternate-flasher-failsafe-method) below. 
+
+However, you should also check the other sections before trying that.
 
 ## Telegram group for reporting issues:
 You can provide feedback and report issues in our Telegram group: https://t.me/migrateApp
@@ -9,7 +11,14 @@ You can provide feedback and report issues in our Telegram group: https://t.me/m
 The error "Segmentation fault" is related to kernel. This is mostly observed in KangarooX kernel for `whyred` (Redmi Note 5). People encountering this are requested to change the kernel and retry backup.
 
 ## Restore after setting up ROM
-In some cases, you might observe some problems if you flash migrate backup zips before setting up your ROM, Google account in Gapps etc. Although the process of flashing ROM <b>AND</b> flashing all migrate zips in one go in TWRP, without rebooting may seem convenient and in most cases have no problems, sometimes, dependent on ROM and device, you might face some problems while restoring.  
+
+1)) A detailed description of how to restore can be found on the migrate application.
+Run the application
+You will see a "how to restore" button. click on it
+
+This is the recommended method of restoring. Try it first.
+
+2)) In some cases, you might observe some problems if you flash migrate backup zips before setting up your ROM, Google account in Gapps etc. Although the process of flashing ROM <b>AND</b> flashing all migrate zips in one go in TWRP, without rebooting may seem convenient and in most cases have no problems, sometimes, dependent on ROM and device, you might face some problems while restoring.  
 
 In such cases, try this:  
 1. Clean flash ROM  
