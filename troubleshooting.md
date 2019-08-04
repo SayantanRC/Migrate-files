@@ -82,3 +82,22 @@ This is a failsafe method, in case you are having any problem flashing a migrate
 4. Reboot. You should now get a prompt to continue restore via the helper app. If not, check [the section "Migrate Helper apk"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#migrate-helper-apk)  
 
 If you want to flash another migrate zip file, clean the "backup" folder created in step 1. Extract another zip file as in step 2, go to TWRP and flash the already downloaded "twrp_extract.zip" file again.
+
+## precautions when making the migrate backup
+1. Delete cache. This reduces errors in making the zip.
+You can use an application that deletes cache...
+and you can individually delete cache in the applications that keep a lot of cache (e.g Facebook , chrome)
+
+2. check to see if you can open your zip files immediately after you make them.
+This will avoid corrupted zip files
+
+3. Generally migrate zip files above 4GB can cause restore problems 
+
+A full system backup will make multiple zip files less than 4 GB each
+
+Partial system breakups can make a single zip file which is more than 4GB in size.
+
+So it is generally better to make a full system backup ,and during restore you can make partial restores.
+
+4. If you are experiencing crashes after restore... then don't restore data + permissions for those applications that are crashing
+
