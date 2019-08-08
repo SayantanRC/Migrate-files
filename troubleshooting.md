@@ -20,13 +20,33 @@ This is the recommended method of restoring. Try it first.
 
 2)) In some cases, you might observe some problems if you flash migrate backup zips before setting up your ROM, Google account in Gapps etc. Although the process of flashing ROM <b>AND</b> flashing all migrate zips in one go in TWRP, without rebooting may seem convenient and in most cases have no problems, sometimes, dependent on ROM and device, you might face some problems while restoring.  
 
-In such cases, try this:  
-1. Clean flash ROM  
-2. Don't flash any migrate zip  
-3. Boot up and complete ROM, Gapps etc setup  
-4. Boot back to TWRP recovery  
-5. Flash migrate zips  
-6. Try to restore  
+In such cases try the following:
+
+A))
+1. Clean flash ROM 
+(wipe cache , dalvik cache , data and the flash the ROM)
+2. *** DON'T FLASH ANY MIGRATE ZIP FILES YET***
+3. Flash OpenGapps 
+(optional - no need to if your ROM already has Gapps, or if you don't want them)
+4. Flash magisk 
+5. Boot into the ROM and complete setup.
+6. Reboot into twrp
+7. FLASH THE MIGRATE ZIP FILES
+8. Boot into the ROM and restore
+
+If this doesn't work then try
+
+B))
+1. Clean flash ROM 
+(wipe cache , dalvik cache , data and the flash the ROM)
+2. *** DON'T FLASH *MAGISK* OR ANY MIGRATE ZIP FILES YET***
+3. Flash OpenGapps 
+(optional - no need to if your ROM already has Gapps, or if you don't want them)
+4. Boot into the ROM and complete setup.
+5. Reboot into twrp
+6. FLASH MAGISK
+7. FLASH THE MIGRATE ZIP FILES
+8. Boot into the ROM and restore
 
 ## Migrate Helper apk
 In some cases, you might not get the prompt to continue restore , in which case you have to run the migratehelper application manually.
