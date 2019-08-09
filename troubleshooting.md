@@ -10,6 +10,10 @@ You can provide feedback and report issues in our Telegram group: https://t.me/m
 ## Segmentation fault
 The error "Segmentation fault" is related to kernel. This is mostly observed in KangarooX kernel for `whyred` (Redmi Note 5). People encountering this are requested to change the kernel and retry backup.
 
+## Zero app backup
+In some cases, the app is not backing up any apk or data. In that case, please click hamburger menu (green circle in top left corner in the first screen of the app) -> Preferences -> Uncheck `Use new method to calculate size` option.  
+The issue will probably be fixed in v3.0.
+
 ## Restore after setting up ROM
 
 1)) A detailed description of how to restore can be found on the migrate application.
