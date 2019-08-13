@@ -77,10 +77,21 @@ OR
 You should be able to flash the file now without any problem.  
 YOU WILL NEED TO INSTALL THE HELPER APK SEPARATELY i.e manually. You can get the apk either from [the section "Migrate Helper apk"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#migrate-helper-apk) or under the "system" directory inside the backup.zip file which you flashed from TWRP.  
 
-## [TWRP error] Error 7 or any other
-This currently prevalent in system-as-root devices like `violet` (Redmi Note 7 pro), `lavender` (Redmi Note 7). Currently system-as-root device users are advised to not use this app. A suitable solution will be made available soon.  
+## [TWRP error] Error 7 or any other error
+There a number of things you can try when you get error 7
 
-For any other cases, you can send a log file to the [Telegram group](https://t.me/migrateApp).  
+1. Change your recovery from TWRP to Orangefox and try again. 
+Orangefox recovery has been shawn to handle error 7 better than TWRP.
+
+2. Make sure you delete cache before you make the backup. 
+It has been shown that the chances of getting any error are reduced tremendously if you clean cache before you backup.
+Refer to section (((Important points when making the migrate backup)) (((@SayantaRC please provide the clickable link)))
+
+3. If the above two methods fail then you have to consider the following:
+
+Error 7 is currently prevalent in system-as-root devices like `violet` (Redmi Note 7 pro), `lavender` (Redmi Note 7). Currently system-as-root device users are advised to not use this app. A suitable solution will be made available soon.  
+
+4. For any other cases, you can send a log file to the [Telegram group](https://t.me/migrateApp).  
 To resolve this please see [the section "TWRP alternate flasher (failsafe method)"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#twrp-alternate-flasher-failsafe-method) below.
 
 To send the log file of TWRP, boot into TWRP -> Flash Migrate zip -> (You will get an error) <b>DO NOT REBOOT</b> -> Go to TWRP main menu -> Advanced -> File manager.
@@ -97,15 +108,17 @@ Now, reboot to system and upload the `recovery.log` file, from Internal storage,
 
 This is a failsafe method, in case you are having any problem flashing a migrate zip in TWRP <b>(Redmi Note 7 series and other system as root devices are not yet supported)</b>. Please note that you cannot use this on multiple migrate backup zips on the same time. You would need to repeat the process for each zip file. Please follow the instructions <b>EXACTLY</b> as provided below.  
 
-1. Make a folder just inside internal storage named "backup". The folder must be completely empty.  
+1. Make a folder just inside internal storage named "backup". /sdcard/backup. The folder must be completely empty.  
 2. Extract a single migrate backup zip file inside the created "backup" folder. The contents of the zip must directly be inside the "backup" folder.  
+> For those technically minded this is what is happening:
 > Say the zip file has a name "BackupXYZ.zip", your extracted contents must <b>NOT</b> look like: <i>Internal storage -> backup -> BackupXYZ -> {zip file contents}</i>  
 > It should look like: <i>Internal storage -> backup -> {zip file contents}</i>  
-3. Download this file: [twrp_extract.zip](https://github.com/SayantanRC/Migrate-files/blob/master/twrp_extract.zip?raw=true). Put this file preferably under `Download` folder in the internal storage of your Android device.  
-4. Open TWRP, click "Install" button, navigate to the above downloaded file (Internal storage -> Download -> twrp_extract.zip) and flash it.  
-4. Reboot. You should now get a prompt to continue restore via the helper app. If not, check [the section "Migrate Helper apk"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#migrate-helper-apk)  
+3. Download this file: [twrp_extract.zip](https://github.com/SayantanRC/Migrate-files/blob/master/twrp_extract.zip?raw=true). For nearly all phones the default download folder/directory is the `Download` folder in the internal storage of your Android device. /sdcard/Download .
+You can you leave it and use it from here (recommend). It does not matter where you put the file as long as you remember where it is.
+4. Boot into TWRP recovery (Or Orangefox recovery if that is what you have installed), click "Install" button, navigate to the above downloaded file (Internal storage -> Download -> twrp_extract.zip) and flash it.  
+4. Reboot into the system (phone). You should now get a prompt to continue restore via the helper app. If not, check [the section "Migrate Helper apk"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#migrate-helper-apk)  
 
-If you want to flash another migrate zip file, clean the "backup" folder created in step 1. Extract another zip file as in step 2, go to TWRP and flash the already downloaded "twrp_extract.zip" file again.
+If you want to flash another migrate zip file, clean the "backup" folder created in step 1 of all it's contents. Extract the other/new zip file into this folder as in step 2, boot into TWRP and flash the already downloaded "twrp_extract.zip" file again.
 
 ## Important points when making the migrate backup
 1. Users may want to delete cache. This reduces errors in making the zip.
