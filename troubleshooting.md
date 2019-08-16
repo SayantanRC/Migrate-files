@@ -85,7 +85,7 @@ Orangefox recovery has been shawn to handle error 7 better than TWRP.
 
 2. Make sure you delete cache before you make the backup. 
 It has been shown that the chances of getting any error are reduced tremendously if you clean cache before you backup.
-Refer to section (((Important points when making the migrate backup)) (((@SayantaRC please provide the clickable link)))
+Refer to [the section "Important points when making the migrate backup"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#important-points-when-making-the-migrate-backup)
 
 3. If the above two methods fail then you have to consider the following:
 
