@@ -3,5 +3,6 @@
 "version": 17,
 "last_tested_android": "10 Q",
 "status": "Pre-release",
-"message": "Report issues at: t.me/migrateApp"
+"message": "Report issues at: t.me/migrateApp",
+"url": ""
 }
