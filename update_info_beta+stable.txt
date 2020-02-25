@@ -1,6 +1,6 @@
 {
 "name": "Migrate 3.0 Mercury (alpha 3)",
-"version": 21,
+"version": 20,
 "last_tested_android": "10 Q",
 "status": "Pre-release",
 "message": "Report issues at: t.me/migrateApp",
