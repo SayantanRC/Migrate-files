@@ -1,8 +1,8 @@
 {
 "name": "Migrate 3.0 Mercury (alpha 3)",
-"version": 16,
+"version": 17,
 "last_tested_android": "10 Q",
 "status": "Pre-release",
 "message": "Report issues at: t.me/migrateApp",
-"url": ""
+"url": "https://raw.githubusercontent.com/SayantanRC/Migrate-files/master/builds/.gitkeep"
 }
