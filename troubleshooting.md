@@ -103,6 +103,14 @@ cp <space> /tmp/recovery.log <space> /sdcard/
 ```
 Now, reboot to system and upload the `recovery.log` file, from Internal storage, in our [Telegram group](https://t.me/migrateApp).
 
+## If the method above doesn't work for error 7, try this [worked for me]
+Extract all the files from zip file, find prep.sh file, open it and edit a few codes :
+remove ">> /proc/self/fd/${OUTFD}"
+replace "awk" with "/tmp/busybox awk" [make sure to replace all 4 "awk" instances]
+now repack the files into a zip and flash it.
+
+If you have multiple zips, follow the procedure for each zip one by one [but you can flash them all together]
+
 ## TWRP alternate flasher (failsafe method)
 <b>IMPORTANT: System apps are not restored by this process.</b>  
 
