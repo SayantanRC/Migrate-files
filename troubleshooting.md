@@ -103,6 +103,7 @@ cp <space> /tmp/recovery.log <space> /sdcard/
 ```
 Now, reboot to system and upload the `recovery.log` file, from Internal storage, in our [Telegram group](https://t.me/migrateApp).
 
+
 ## TWRP alternate flasher (failsafe method)
 <b>IMPORTANT: System apps are not restored by this process.</b>  
 
@@ -119,6 +120,15 @@ You can you leave it and use it from here (recommend). It does not matter where 
 4. Reboot into the system (phone). You should now get a prompt to continue restore via the helper app. If not, check [the section "Migrate Helper apk"](https://github.com/SayantanRC/Migrate-files/blob/master/troubleshooting.md#migrate-helper-apk)  
 
 If you want to flash another migrate zip file, clean the "backup" folder created in step 1 of all it's contents. Extract the other/new zip file into this folder as in step 2, boot into TWRP and flash the already downloaded "twrp_extract.zip" file again.
+
+## If the method above doesn't work for error 7, try this [worked for me]
+Extract all the files from zip file, find prep.sh file, open it and edit a few codes :
+remove ">> /proc/self/fd/${OUTFD}"
+replace "awk" with "/tmp/busybox awk" [make sure to replace all 4 "awk" instances]
+now repack the files into a zip and flash it.
+
+If you have multiple zips, follow the procedure for each zip one by one [but you can flash them all together]
+
 
 ## Important points when making the migrate backup
 1. Users may want to delete cache. This reduces errors in making the zip.
