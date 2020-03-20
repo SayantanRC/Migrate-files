@@ -1,8 +1,8 @@
 {
-"name": "Migrate 3.0 Mercury (alpha 3.1)",
-"version": 18,
+"name": "Migrate-NG 3.0 (release)",
+"version": 19,
 "last_tested_android": "10 Q",
-"status": "Pre-release",
-"message": "Fixed an issue regarding extras backup. Report issues at: t.me/migrateApp",
-"url": "https://raw.githubusercontent.com/SayantanRC/Migrate-files/master/builds/migrate_3.0_alpha3.1.apk"
+"status": "Release",
+"message": "This update will move you to Migrate-NG which is not the same as on Google Play store. Migrate-NG is the beta version. It will retain in-app updates (unlike Google Play edition). It will also get new test features sooner.",
+"url": "https://raw.githubusercontent.com/SayantanRC/Migrate-files/master/builds/migrate_3.0_NG.apk"
 }
