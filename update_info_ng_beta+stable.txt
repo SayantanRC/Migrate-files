@@ -1,0 +1,9 @@
+{
+"name": "Migrate-NG 3.0.1 (release)",
+"version": 20,
+"last_tested_android": "10 Q",
+"status": "Release",
+"package": "balti.migrate.ng",
+"message": "This update will move you to Migrate-NG which is not the same as on Google Play store. Migrate-NG is the beta version. It will retain in-app updates (unlike Google Play edition). It will also get new test features sooner.",
+"url": "https://gitlab.com/SayantanRC/update-files/-/raw/master/migrate/migrate_3.0.1_NG.apk"
+}
