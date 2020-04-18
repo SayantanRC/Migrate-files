@@ -1,6 +1,6 @@
 {
 "name": "Migrate-NG 3.0.3 (release)",
-"version": 20,
+"version": 23,
 "last_tested_android": "10 Q",
 "status": "Release",
 "message": "Changes: 1. New icon, 2. Probable fix to No metadata found after flashing",
