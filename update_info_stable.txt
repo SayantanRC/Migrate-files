@@ -1,8 +1,8 @@
 {
-"name": "Migrate-NG 3.0.1 (release)",
-"version": 20,
+"name": "Migrate-NG 3.0.3 (release)",
+"version": 23,
 "last_tested_android": "10 Q",
 "status": "Release",
-"message": "This update will move you to Migrate-NG which is not the same as on Google Play store. Migrate-NG is the beta version. It will retain in-app updates (unlike Google Play edition). It will also get new test features sooner.",
-"url": "https://raw.githubusercontent.com/SayantanRC/Migrate-files/master/builds/migrate_3.0.1_NG.apk"
+"message": "Changes: 1. New icon, 2. Probable fix to No metadata found after flashing",
+"url": "https://raw.githubusercontent.com/SayantanRC/Migrate-files/master/builds/migrate_3.0.3_NG.apk"
 }
