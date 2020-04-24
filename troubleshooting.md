@@ -53,14 +53,15 @@ B))
 8. Boot into the ROM and restore
 
 ## Migrate Helper apk
-In some cases, you might not get the prompt to continue restore , in which case you have to run the migratehelper application manually.
+In some cases, you might not get the prompt to continue restore , in which case you have to run the migrate helper application manually.
 
 The helper application is found on your internal storage in:
-/sdcard/Android/data/balti.migratehelper/helper/MigrateHelper.apk
+/sdcard/Migrate/helper.apk
 
 Or you download the apk, install it manually and open it to continue restoring.
 
-[Helper apk](https://github.com/SayantanRC/Migrate-files/blob/master/helper.apk?raw=true)
+[Helper apk](https://github.com/SayantanRC/Migrate-files/blob/master/MigrateHelper.apk?raw=true)
+[Or from Google Play](https://play.google.com/store/apps/details?id=balti.migrate.helper)
 
 ## [TWRP error] Can't install helper. Flashing zip fails.
 Helper usually fails to install from TWRP when the system directory is full. You may want to use a different ROM or use a smaller GApps package. This will be avoided from Migrate v3.0 and above.  
