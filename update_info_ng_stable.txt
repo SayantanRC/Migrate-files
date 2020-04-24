@@ -5,5 +5,5 @@
 "status": "Release",
 "package": "balti.migrate.ng",
 "message": "This is a new app. After update, kindly uninstall the old Migrate-NG app.",
-"url": "https://gitlab.com/SayantanRC/update-files/-/raw/master/migrate/migrate_3.1_NG.apk"
+"url": "https://raw.githubusercontent.com/SayantanRC/Migrate-files/master/builds/migrate_3.1_NG.apk"
 }
