@@ -3,7 +3,7 @@
     "messages": [
         {
             "message_no": 1,
-            "message": "Test message",
+            "message_body": "Test message",
             "date": "30 Oct 2020"
         }
     ]
