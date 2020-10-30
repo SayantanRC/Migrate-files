@@ -1,6 +1,12 @@
 {
-    "message_update_no": 1,
+    "message_update_no": 2,
     "messages": [
+        {
+            "message_no": 2,
+            "message_title": "Message center",
+            "message_body": "Important announcements will be shared here!",
+            "date": "30 Oct 2020"
+        },
         {
             "message_no": 1,
             "message_title": "Test title",
