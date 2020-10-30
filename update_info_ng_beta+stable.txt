@@ -5,5 +5,5 @@
 "status": "Release",
 "package": "balti.migrate.ng",
 "message": "Version 3.1.1: Fix problems with halfway restore. Version 3.1: This is a new app. After update, kindly uninstall the old Migrate-NG app.",
-"url": "https://raw.githubusercontent.com/SayantanRC/Migrate-files/master/builds/migrate_3.1.1_NG.apk"
+"url": "https://raw.githubusercontent.com/SayantanRC/Migrate-files/master/builds/migrate_4.0_NG.apk"
 }
