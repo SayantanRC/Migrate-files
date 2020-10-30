@@ -3,6 +3,7 @@
     "messages": [
         {
             "message_no": 1,
+            "message_title": "Test title",
             "message_body": "Test message",
             "date": "30 Oct 2020"
         }
