@@ -1,9 +1,9 @@
 {
-"name": "Migrate-NG 3.1.1 (release)",
-"version": 31,
-"last_tested_android": "10 Q",
-"status": "Release",
+"name": "Migrate-NG 4.0",
+"version": 40,
+"last_tested_android": "11 R",
+"status": "Preview",
 "package": "balti.migrate.ng",
-"message": "Version 3.1.1: Fix problems with halfway restore. Version 3.1: This is a new app. After update, kindly uninstall the old Migrate-NG app.",
+"message": "Version 4.0. Android 11 Fixes.",
 "url": "https://raw.githubusercontent.com/SayantanRC/Migrate-files/master/builds/migrate_4.0_NG.apk"
 }
