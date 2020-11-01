@@ -1,8 +1,8 @@
 {
 "name": "Migrate-NG 4.0",
-"version": 40,
+"version": 41,
 "last_tested_android": "11 R",
-"status": "Preview",
+"status": "Release",
 "package": "balti.migrate.ng",
 "message": "Version 4.0. Android 11 Fixes.",
 "url": "https://raw.githubusercontent.com/SayantanRC/Migrate-files/master/builds/migrate_4.0_NG.apk"
