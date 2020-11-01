@@ -1,6 +1,6 @@
 {
 "name": "Migrate-NG 4.0",
-"version": 41,
+"version": 10,
 "last_tested_android": "11 R",
 "status": "Release",
 "package": "balti.migrate.ng",
